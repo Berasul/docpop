@@ -1,11 +1,12 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import Hero from "./_components/Hero";
 
 export default function Home() {
   return (
     <div>
-      <h2>Welcome to DocPop</h2>
-      <Button>Click me</Button>
+      {/* Hero Section */}
+      <Hero />
     </div>
   );
 }
